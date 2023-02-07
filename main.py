@@ -36,7 +36,7 @@ def encrypt():
   with open('Encrypted.txt', 'wb') as encrypted_file:
       encrypted_file.write(encrypted)
 
-
+# --------------------------- DECRYPTION ------------------------------- #
 # using the key
 def decrypt():
   with open('filekey.key', 'rb') as f:
